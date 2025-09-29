@@ -1,0 +1,17 @@
+create database symptoms;
+use symptoms;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact_no varchar(20),
+email varchar(50), 
+address varchar(80));
+
+create table log(username varchar(50),
+symptoms_text varchar(400),
+predicted_advice varchar(60),
+checked_date varchar(40));
+
+
+
+
